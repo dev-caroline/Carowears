@@ -5,7 +5,7 @@ import axios from 'axios'
 
 const App = () => {
   // const url = 'http://localhost:5400/test'
-  const url = "https://carowears-server-virid.vercel.app/"
+  const url = "https://carowears-server-virid.vercel.app/test"
   const getInfo = ()=>{
     axios.get(url)
     .then((res)=>{
